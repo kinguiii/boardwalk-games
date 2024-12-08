@@ -33,16 +33,6 @@ h2 {
     margin-bottom: 2rem;
 }
 
-#services .card-footer {
-    font-weight: bold;
-    color: var(--highlight-color);
-    background-color: transparent;
-}
-
-#services .card {
-    margin-bottom: 1.5rem;
-}
-
 .sub-heading-color {
     color: var(--highlight-color);
 }
@@ -68,6 +58,18 @@ h2 {
     font-family: var(--secondary-font);
 }
 
+/*Services*/
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
 /* Grid Visualization CSS for testing */
 
 /* .container,
@@ -79,3 +81,37 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up */
+@media screen and (min-width: 768px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large devices (small laptops, 992px and up */
+@media screen and (min-width: 992px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* X-Large devices (Large desktops, 1200px and up */
+@media screen and (min-width: 1200px) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XX-Large devices (xl-desktops, 1400x and up */
+@media screen and (min-width: 1400x) {
+    /* Make all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 195;
+    }
+}
