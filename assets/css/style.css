@@ -70,6 +70,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game Libary */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+    margin-top: 1rem;
+}
+
 /* Grid Visualization CSS for testing */
 
 /* .container,
@@ -109,9 +117,9 @@ h2 {
 }
 
 /* XX-Large devices (xl-desktops, 1400x and up */
-@media screen and (min-width: 1400x) {
+@media screen and (min-width: 1400px) {
     /* Make all services cards the same height for consistency */
     #services .card-body {
-        min-height: 195;
+        min-height: 195px;
     }
 }
