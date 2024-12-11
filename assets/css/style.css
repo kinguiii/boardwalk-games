@@ -95,6 +95,16 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    margin: auto;
+    max-width: 290px;
+    margin-inline: auto;
+}
+
 /* Game Libary */
 
 #new-games .card,
